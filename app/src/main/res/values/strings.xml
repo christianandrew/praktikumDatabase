@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">praktikumDatabase</string>
+    <string name="nama">Nama</string>
+    <string name="nrp">NRP</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="buttonCreate">Create</string>
+    <string name="buttonRead">Read</string>
+    <string name="buttonUpdate">Update</string>
+    <string name="buttonDelete">Delete</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="6dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:hint="@string/nama"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/nrp"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="6dp"
+        android:minHeight="48dp"
+        android:hint="@string/nrp"
+        android:textColor="@color/black"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/jurusan"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nrp"
+        android:minHeight="48dp"
+        android:hint="@string/jurusan"
+        android:textColor="@color/black"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/buttonCreate"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/jurusan"/>
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/buttonUpdate"
+        android:layout_below="@id/buttonCreate"/>
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/buttonDelete"
+        android:layout_below="@id/buttonUpdate"/>
+    <Button
+        android:id="@+id/buttonRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/buttonRead"
+        android:layout_below="@id/buttonDelete"/>
+
+
+</RelativeLayout>
